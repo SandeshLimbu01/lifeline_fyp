@@ -34,9 +34,9 @@ Route::get('/', function () {
     return view('frontend.app');
 });
 
-// Route::get('/', function() {
-//     return redirect('/login');
-// });
+Route::get('/admin', function () {
+    return redirect('/login');
+});
 
 Route::get('/sign-up', SignUp::class)->name('sign-up');
 Route::get('/login', Login::class)->name('login');
@@ -56,3 +56,58 @@ Route::middleware('auth')->group(function () {
     Route::get('/laravel-user-profile', UserProfile::class)->name('user-profile');
     Route::get('/laravel-user-management', UserManagement::class)->name('user-management');
 });
+
+
+Route::prefix('/advice')->group(function () {
+    Route::get('/index', [ContactController::class, 'index'])->name('advice.index');
+    Route::get('/create', [ContactController::class, 'create'])->name('advice.create');
+    Route::post('/store', [ContactController::class, 'store'])->name('advice.store');
+    Route::get('/{id}/edit', [ContactController::class, 'edit'])->name('advice.edit');
+    Route::put('/{id}/update', [ContactController::class, 'update'])->name('advice.update');
+    Route::get('/{id}/show', [ContactController::class, 'show'])->name('advice.show');
+});
+
+Route::prefix('/article')->group(function () {
+    Route::get('/index', [ContactController::class, 'index'])->name('article.index');
+    Route::get('/create', [ContactController::class, 'create'])->name('article.create');
+    Route::post('/store', [ContactController::class, 'store'])->name('article.store');
+    Route::get('/{id}/edit', [ContactController::class, 'edit'])->name('article.edit');
+    Route::put('/{id}/update', [ContactController::class, 'update'])->name('article.update');
+    Route::get('/{id}/show', [ContactController::class, 'show'])->name('article.show');
+});
+
+Route::prefix('/hospital')->group(function () {
+    Route::get('/index', [ContactController::class, 'index'])->name('hospital.index');
+    Route::get('/create', [ContactController::class, 'create'])->name('hospital.create');
+    Route::post('/store', [ContactController::class, 'store'])->name('hospital.store');
+    Route::get('/{id}/edit', [ContactController::class, 'edit'])->name('hospital.edit');
+    Route::put('/{id}/update', [ContactController::class, 'update'])->name('hospital.update');
+    Route::get('/{id}/show', [ContactController::class, 'show'])->name('hospital.show');
+});
+
+Route::prefix('/illness')->group(function () {
+    Route::get('/index', [ContactController::class, 'index'])->name('illness.index');
+    Route::get('/create', [ContactController::class, 'create'])->name('illness.create');
+    Route::post('/store', [ContactController::class, 'store'])->name('illness.store');
+    Route::get('/{id}/edit', [ContactController::class, 'edit'])->name('illness.edit');
+    Route::put('/{id}/update', [ContactController::class, 'update'])->name('illness.update');
+    Route::get('/{id}/show', [ContactController::class, 'show'])->name('illness.show');
+});
+
+Route::prefix('/advice')->group(function () {
+    Route::get('/index', [ContactController::class, 'index'])->name('advice.index');
+    Route::get('/create', [ContactController::class, 'create'])->name('advice.create');
+    Route::post('/store', [ContactController::class, 'store'])->name('advice.store');
+    Route::get('/{id}/edit', [ContactController::class, 'edit'])->name('advice.edit');
+    Route::put('/{id}/update', [ContactController::class, 'update'])->name('advice.update');
+    Route::get('/{id}/show', [ContactController::class, 'show'])->name('advice.show');
+});
+
+// Route::prefix('/contact')->group(function () {
+//     Route::get('/index', [ContactController::class, 'index'])->name('contact.index');
+//     Route::get('/create', [ContactController::class, 'create'])->name('contact.create');
+//     Route::post('/store', [ContactController::class, 'store'])->name('contact.store');
+//     Route::get('/{id}/edit', [ContactController::class, 'edit'])->name('contact.edit');
+//     Route::put('/{id}/update', [ContactController::class, 'update'])->name('contact.update');
+//     Route::get('/{id}/show', [ContactController::class, 'show'])->name('contact.show');
+// });

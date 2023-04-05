@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="Tooplate">
 
-    <title>LifiLine</title>
+    <title>LifeLine</title>
 
     <!-- CSS FILES -->
     @include('frontend.style')
