@@ -4,25 +4,22 @@
 
             <div class="col-lg-6 col-12">
                 <div class="site-footer-wrap d-flex align-items-center">
-                    <p class="copyright-text mb-0 me-4">Copyright © 2036 Waso Strategy Co., Ltd.</p>
+                    <p class="copyright-text mb-0 me-4">Copyright © 2023 All Right Reservied</p>
 
                     <ul class="social-icon">
-                        <li><a href="https://facebook.com/tooplate" class="social-icon-link bi-facebook"></a></li>
+                        <li><a href="https://facebook.com" class="social-icon-link bi-facebook"></a></li>
 
-                        <li><a href="https://pinterest.com/tooplate" class="social-icon-link bi-pinterest"></a></li>
+                        <li><a href="https://pinterest.com" class="social-icon-link bi-pinterest"></a></li>
 
-                        <li><a href="https://twitter.com/minthu" class="social-icon-link bi-twitter"></a></li>
+                        <li><a href="https://twitter.com" class="social-icon-link bi-twitter"></a></li>
 
-                        <li><a href="https://www.youtube.com/tooplate" class="social-icon-link bi-youtube"></a></li>
+                        <li><a href="https://www.youtube.com" class="social-icon-link bi-youtube"></a></li>
                     </ul>
 
                 </div>
             </div>
 
-            <div class="col-lg-6 col-12">
-                <p class="copyright-text mb-0 me-4">Waso HTML Template is designed by <a
-                        href="https://www.tooplate.com/" target="_blank">Tooplate</a></p>
-            </div>
+
 
         </div>
     </div>

@@ -8,16 +8,17 @@
                     <div class="carousel-item active">
                         <div class="container position-relative h-100">
                             <div class="carousel-caption d-flex flex-column justify-content-center">
-                                <small class="small-title">Introducing Waso Strategy <strong
-                                        class="text-warning">01/05</strong></small>
+                                <small class="small-title">Introducing LifiLine <strong
+                                        class="text-warning"></strong></small>
 
-                                <h1>Explore <span class="text-warning">new ideas</span> for your business</h1>
+                                <h1>We're Here to<span class="text-warning"> Help</span> You Achieve <span
+                                        class="text-warning">Optimal Health</span></h1>
 
                                 <div class="d-flex align-items-center mt-4">
-                                    <a class="custom-btn btn custom-link" href="#section_2">Get Started</a>
+                                    <a class="custom-btn btn custom-link" href="#section_2">Health Tips</a>
 
                                     <a class="popup-youtube custom-icon d-flex ms-4"
-                                        href="https://www.youtube.com/watch?v=AYaHuZ4BB6Y">
+                                        href="https://www.youtube.com/watch?v=xNoanoQ5syY&ab_channel=Dr.EricBergDC">
                                         <i class="bi-play play-icon d-flex m-auto text-white"></i>
                                     </a>
                                 </div>
@@ -25,23 +26,21 @@
                         </div>
 
                         <div class="carousel-image-wrap">
-                            <img src="images/slide/christina-wocintechchat-com-NDoVgcS_lZM-unsplash.jpg"
-                                class="img-fluid carousel-image" alt="">
+                            <img src="images/slide/slide1.jpg" class="img-fluid carousel-image" alt="">
                         </div>
                     </div>
 
                     <div class="carousel-item">
                         <div class="container position-relative h-100">
                             <div class="carousel-caption d-flex flex-column justify-content-center">
-                                <small class="small-title">Supporting New Project <strong
-                                        class="text-warning">01/05</strong></small>
+                                <small class="small-title">Introducing LifiLine <strong
+                                        class="text-warning"></strong></small>
 
-                                <h1>Strategic Planning for your <span class="text-warning">next project</span>
-                                </h1>
+                                <h1>We're Here to<span class="text-warning"> Help</span> You Achieve <span
+                                        class="text-warning">Optimal Health</span></h1>
 
                                 <div class="d-flex align-items-center mt-4">
-                                    <a class="custom-btn btn custom-link" href="#section_2">Explore
-                                        Capabilities</a>
+                                    <a class="custom-btn btn custom-link" href="#section_2">Health Tips</a>
 
                                     <a class="popup-youtube custom-icon d-flex ms-4"
                                         href="https://www.youtube.com/watch?v=VStvZjykQ00">
@@ -52,8 +51,7 @@
                         </div>
 
                         <div class="carousel-image-wrap">
-                            <img src="images/slide/jason-goodman-0K7GgiA8lVE-unsplash.jpg"
-                                class="img-fluid carousel-image" alt="">
+                            <img src="images/slide/slide2.jpg" class="img-fluid carousel-image" alt="">
                         </div>
                     </div>
 
@@ -85,10 +83,11 @@
                     <img src="images/peter-jones-WZROBIlY8Rg-unsplash.jpg" class="img-fluid about-image" alt="">
 
                     <div class="about-image-info">
-                        <h4 class="text-white">William Smith, CEO</h4>
+                        <h4 class="text-white">Dr. William Smith</h4>
 
-                        <p class="text-white mb-0">You can freely use Waso Strategy for your website project.
-                            Thank you for visiting Tooplate.</p>
+                        <p class="text-white mb-0">Skipping meals can lead to overeating later in the day. Try to eat
+                            regular meals and snacks throughout the day to keep your hunger and energy levels stable.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -97,22 +96,37 @@
                 <div class="about-thumb bg-white shadow-lg">
 
                     <div class="about-info">
-                        <small class="small-title">About <strong class="text-warning">02/05</strong></small>
+                        <small class="small-title"><strong class="text-warning">Diet</strong> &<strong
+                                class="text-warning"> Nutrition</strong></small>
 
-                        <h2 class="mb-3">Consulting Agency</h2>
 
-                        <h5 class="mb-3">Helping small businesses since 2001</h5>
+                        <h5 class="mb-3">Fuel your body with the nutrients it needs for a healthier you!</h5>
 
-                        <p>Waso Strategy is a Bootstrap 5 HTML template for your business. You may use this
-                            template for any purpose. You may not redistribute the template ZIP file on any
-                            other website.</p>
+                        <p>Diet and nutrition refer to the food and nutrients that we consume to fuel our bodies and
+                            maintain good health. A healthy diet includes a variety of foods from all food groups, such
+                            as fruits, vegetables, whole grains, lean proteins, and healthy fats. Nutrients are
+                            essential substances that our bodies need to function properly, and they come from the food
+                            we eat.</p>
 
-                        <p>You may support a little PayPal donation to Tooplate by visiting our <a
-                                href="https://www.tooplate.com/contact">contact page</a>. Thank you.</p>
+                        <p>A balanced diet provides all the necessary nutrients in the right proportions to meet our
+                            body's needs. Some of the essential nutrients include carbohydrates, proteins, fats,
+                            vitamins, minerals, and water. Carbohydrates provide energy, while proteins are important
+                            for building and repairing muscles and tissues. Fats are important for insulation and
+                            cushioning of our vital organs. Vitamins and minerals play a vital role in various bodily
+                            functions, such as strengthening the immune system, bone health, and blood circulation.
+                            Water is essential for the body to function properly and helps maintain hydration. </p>
+
+                        <p>A healthy diet can help prevent chronic diseases such as heart disease, diabetes, and
+                            obesity. It can also help improve our mental and emotional well-being. On the other hand, a
+                            poor diet can lead to malnutrition, weight gain, and chronic health problems.</p>
+
+                        <p> It's important to consult a healthcare professional or a registered dietitian to create
+                            a
+                            personalized nutrition plan based on individual needs and health conditions.</p>
                     </div>
                 </div>
 
-                <div class="row h-100">
+                {{-- <div class="row h-100">
                     <div class="col-lg-6 col-6">
                         <div class="about-thumb d-flex flex-column justify-content-center bg-danger mb-lg-0 h-100">
 
@@ -134,7 +148,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
 
         </div>
@@ -146,9 +160,11 @@
         <div class="row">
 
             <div class="col-lg-10 col-12 text-center mx-auto mb-5">
-                <small class="small-title">Services <strong class="text-warning">03/05</strong></small>
+                <small class="small-title"><strong class="text-warning">Health Tips</strong> &<strong
+                        class="text-warning">
+                        Guidance</strong></small>
 
-                <h2>How can we help you?</h2>
+                <h5>Small changes, big impact: Tips and guidance for a healthier you!</h5>
 
             </div>
 
@@ -158,27 +174,49 @@
                         <button class="nav-link active" id="nav-business-tab" data-bs-toggle="tab"
                             data-bs-target="#nav-business" type="button" role="tab" aria-controls="nav-business"
                             aria-selected="true">
-                            <h3>Business Consulting</h3>
+                            <h3>Stay hydrated</h3>
+                            <ul>
+                                <li>Drink enough water.
+                                </li>
 
-                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut dolore</span>
+                                <li> Carry a reusable water bottle.
+                                </li>
+
+                                <li> Drink water before, during, and after exercise.
+                                </li>
+                                <li>
+                                    Monitor urine color.
+                                </li>
+                                <li>Avoid excessive caffeine and alcohol consumption</li>
+                            </ul>
+
                         </button>
 
                         <button class="nav-link" id="nav-strategy-tab" data-bs-toggle="tab"
                             data-bs-target="#nav-strategy" type="button" role="tab" aria-controls="nav-strategy"
                             aria-selected="false">
-                            <h3>Strategy Planning</h3>
+                            <h3>Eat a Balanced Diet</h3>
 
-                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut dolore</span>
+                            <ul>
+                                <li>Include a variety of fruits and vegetables in your meals</li>
+                                <li>Choose whole grains over refined grains</li>
+                                <li>Incorporate lean proteins</li>
+                                <li>Limit processed and sugary foods</li>
+                                <li>Don't forget about healthy fats</li>
+                            </ul>
                         </button>
 
                         <button class="nav-link" id="nav-video-tab" data-bs-toggle="tab" data-bs-target="#nav-video"
                             type="button" role="tab" aria-controls="nav-video" aria-selected="false">
-                            <h3>Video Content</h3>
+                            <h3>Get regular physical activity</h3>
 
-                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut dolore</span>
+                            <ul>
+                                <li>Find activities you enjoy</li>
+                                <li>Set achievable goals</li>
+                                <li>Make it a habit</li>
+                                <li>Get a workout buddy</li>
+                                <li>Take breaks and listen to your body</li>
+                            </ul>
                         </button>
                     </div>
                 </nav>
@@ -188,51 +226,93 @@
                 <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane fade show active" id="nav-business" role="tabpanel"
                         aria-labelledby="nav-intro-tab">
-                        <img src="images/services/young-entrepreneurs-mature-investor-watching-presentation-discussing-project.jpg"
-                            class="img-fluid" alt="">
+                        <img src="images/services/hydrate.jpg" class="img-fluid" alt="">
 
-                        <h5 class="mt-4 mb-2">Introduction to Business Consulting</h5>
+                        <h5 class="mt-4 mb-2">Stay refreshed and energized by keeping your body hydrated with plenty of
+                            water.</h5>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut dolore</p>
+
 
                         <ul>
-                            <li>Helping small businesses</li>
+                            <li>Drink enough water: The general recommendation is to drink at least 8 cups (64 ounces)
+                                of water per day, but individual needs may vary based on factors such as age, sex, and
+                                activity level.
+                            </li>
 
-                            <li>Lorem ipsum dolor sit amet</li>
+                            <li> Carry a reusable water bottle: Carrying a reusable water bottle with you can make it
+                                easier to drink enough water throughout the day.
+                            </li>
 
-                            <li>Business Strategy and Management</li>
+                            <li> Drink water before, during, and after exercise: Drinking water before, during, and
+                                after
+                                exercise can help maintain hydration and support performance.</li>
+                            <li>
+                                Monitor urine color: Monitoring the color of your urine can be a helpful indicator of
+                                hydration status. Clear or light-colored urine generally indicates adequate hydration,
+                                while dark yellow or amber-colored urine may indicate dehydration.
+                            </li>
+                            <li>Avoid excessive caffeine and alcohol consumption: Caffeine and alcohol can act as
+                                diuretics, which can increase urine output and contribute to dehydration.</li>
                         </ul>
                     </div>
 
                     <div class="tab-pane fade show" id="nav-strategy" role="tabpanel"
                         aria-labelledby="nav-strategy-tab">
-                        <img src="images/services/startup-leader-drawing-flowchart-board-discussing-project.jpg"
-                            class="img-fluid" alt="">
+                        <img src="images/services/diet.jpg" class="img-fluid" alt="">
 
-                        <h5 class="mt-4 mb-2">Strategy Planning</h5>
+                        <h5 class="mt-4 mb-2">Fuel your body with a balanced and diverse diet to help maintain optimal
+                            physical and mental health.</h5>
 
                         <div class="row">
-                            <div class="col-lg-6 col-12">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor dolore</p>
-                            </div>
+                            <ul>
+                                <li>Include a variety of fruits and vegetables in your meals: Fruits and vegetables are
+                                    excellent sources of vitamins, minerals, and fiber, which are essential for
+                                    maintaining good health. Aim to include a variety of colors and types of produce in
+                                    your diet to ensure you're getting a range of nutrients.</li>
+                                <li>Choose whole grains over refined grains: Whole grains contain more fiber and
+                                    nutrients than refined grains, which have been stripped of their bran and germ. Look
+                                    for whole grain options such as brown rice, quinoa, whole wheat bread, and whole
+                                    grain pasta.</li>
+                                <li>Incorporate lean proteins: Proteins are important for building and repairing
+                                    tissues, and can also help you feel fuller for longer. Choose lean protein sources
+                                    such as chicken, fish, tofu, beans, and legumes.</li>
+                                <li>Limit processed and sugary foods: Processed foods often contain high amounts of
+                                    sodium, unhealthy fats, and added sugars, which can be detrimental to your health if
+                                    consumed in excess. Limiting these types of foods can help you maintain a healthy
+                                    diet.</li>
+                                <li>Don't forget about healthy fats: Healthy fats, such as those found in nuts, seeds,
+                                    avocado, and fatty fish, are essential for brain function and maintaining healthy
+                                    skin, hair, and nails. Incorporating these foods into your diet can help you feel
+                                    fuller for longer and provide important nutrients.</li>
+                            </ul>
 
-                            <div class="col-lg-6 col-12">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor dolore</p>
-                            </div>
                         </div>
                     </div>
 
                     <div class="tab-pane fade show" id="nav-video" role="tabpanel" aria-labelledby="nav-video-tab">
-                        <img src="images/services/portrait-smiling-african-american-young-woman-holding-movie-production-blackboard.jpg"
-                            class="img-fluid" alt="">
+                        <img src="images/services/exercise.jpg" class="img-fluid" alt="">
 
-                        <h5 class="mt-4 mb-2">Video Content</h5>
+                        <h5 class="mt-4 mb-2">Sweat today, smile tomorrow: Regular physical activity can bring happiness
+                            and health benefits.</h5>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut dolore</p>
+                        <ul>
+                            <li>Find activities you enjoy: Regular physical activity can be more enjoyable when you
+                                engage in activities that you find fun and enjoyable. Try different types of exercise
+                                such as dancing, swimming, hiking, or cycling to find what you enjoy.</li>
+                            <li>Set achievable goals: Setting realistic and achievable fitness goals can help keep you
+                                motivated and on track. Start with small goals and gradually increase your activity
+                                level over time.</li>
+                            <li>Make it a habit: Incorporating physical activity into your daily routine can help make
+                                it a habit. Try scheduling workouts at the same time each day or taking a daily walk
+                                during your lunch break.</li>
+                            <li>Get a workout buddy: Working out with a friend or family member can help keep you
+                                motivated and make exercise more fun. Plus, you can hold each other accountable for
+                                sticking to your fitness goals.</li>
+                            <li>Take breaks and listen to your body: It's important to listen to your body and take
+                                breaks when you need to. Pushing yourself too hard can lead to injury and burnout.
+                                Remember to start slowly, gradually increasing your activity level, and taking breaks
+                                when necessary to prevent overexertion.</li>
+                        </ul>
                     </div>
 
 
