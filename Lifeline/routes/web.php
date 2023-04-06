@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\homeController;
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Livewire\Auth\ForgotPassword;
@@ -31,7 +32,7 @@ use Illuminate\Http\Request;
 */
 
 Route::get('/', function () {
-    return view('frontend.app');
+    return view('frontend.main');
 });
 
 Route::get('/admin', function () {
@@ -102,6 +103,16 @@ Route::prefix('/advice')->group(function () {
     Route::put('/{id}/update', [ContactController::class, 'update'])->name('advice.update');
     Route::get('/{id}/show', [ContactController::class, 'show'])->name('advice.show');
 });
+
+Route::prefix('/hospital')->group(function () {
+    Route::get('/bir', [homeController::class, 'bir'])->name('bir');
+    Route::get('/bpkhs', [homeController::class, 'bpkhs'])->name('bpkhs');
+    Route::get('/chitwan', [homeController::class, 'chitwan'])->name('chitwan');
+    Route::get('/maharaj', [homeController::class, 'maharaj'])->name('maharaj');
+    Route::get('/narayani', [homeController::class, 'narayani'])->name('narayani');
+    Route::get('/nepalgunj', [homeController::class, 'nepalgunj'])->name('nepalgunj');
+});
+
 
 // Route::prefix('/contact')->group(function () {
 //     Route::get('/index', [ContactController::class, 'index'])->name('contact.index');

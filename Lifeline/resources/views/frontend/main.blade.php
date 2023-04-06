@@ -1,3 +1,5 @@
+@extends('frontend.app')
+@section('content')
 <section class="hero">
     <div class="container-fluid h-100">
         <div class="row h-100">
@@ -328,20 +330,20 @@
         <div class="row">
 
             <div class="col-lg-10 col-12 text-center mx-auto mb-5">
-                <small class="small-title">Projects <strong class="text-warning">04/05</strong></small>
+                <small class="small-title"><strong class="text-warning">Hospital</strong></small>
 
-                <h2>Brands we've crafted so far</h2>
+                <h5>Hospitals are a beacon of hope, providing essential medical care and support to individuals and
+                    communities in times of need.</h5>
             </div>
 
             <div class="col-lg-4 col-12">
                 <div class="projects-thumb projects-thumb-small">
-                    <a href="project-detail.html">
-                        <img src="images/projects/pj-gal-szabo-CIXXIWxxec4-unsplash.jpg"
-                            class="img-fluid projects-image" alt="">
+                    <a href="{{ route('bir') }}">
+                        <img src="images/projects/bpkhs.png" class="img-fluid projects-image" alt="">
 
                         <div class="projects-info">
                             <div class="projects-title-wrap">
-                                <small class="projects-small-title">Business</small>
+                                <small class="projects-small-title">BIR HOSPITAL</small>
 
                                 <h2 class="projects-title">MCL Group</h2>
                             </div>
@@ -358,13 +360,35 @@
 
             <div class="col-lg-4 col-12">
                 <div class="projects-thumb projects-thumb-small">
-                    <a href="project-detail.html">
-                        <img src="images/projects/team-fredi-FN3vmVee2sI-unsplash.jpg" class="img-fluid projects-image"
-                            alt="">
+                    <a href="{{ route('bpkhs') }}">
+                        <img src="images/projects/bpkhs.png" class="img-fluid projects-image" alt="">
 
                         <div class="projects-info">
                             <div class="projects-title-wrap">
-                                <small class="projects-small-title">Strategy Planning</small>
+                                <small class="projects-small-title">B.P. Koirala Institute of Health Sciences
+                                    (BPKIHS)</small>
+
+                                <h2 class="projects-title">MCL Group</h2>
+                            </div>
+
+                            <div class="projects-btn-wrap mt-4">
+                                <span class="custom-btn btn">
+                                    <i class="bi-arrow-right"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-12">
+                <div class="projects-thumb projects-thumb-small">
+                    <a href="{{ route('chitwan') }}">
+                        <img src="images/projects/bpkhs.png" class="img-fluid projects-image" alt="">
+
+                        <div class="projects-info">
+                            <div class="projects-title-wrap">
+                                <small class="projects-small-title">CHITWAN MEDICAL COLLEGE</small>
 
                                 <h2 class="projects-title">Fredi</h2>
                             </div>
@@ -381,13 +405,12 @@
 
             <div class="col-lg-4 col-12">
                 <div class="projects-thumb projects-thumb-small">
-                    <a href="project-detail.html">
-                        <img src="images/projects/vmsign-x9yGe7wnvKQ-unsplash.jpg" class="img-fluid projects-image"
-                            alt="">
+                    <a href="{{ route('maharaj') }}">
+                        <img src="images/projects/bpkhs.png" class="img-fluid projects-image" alt="">
 
                         <div class="projects-info">
                             <div class="projects-title-wrap">
-                                <small class="projects-small-title">Video Content</small>
+                                <small class="projects-small-title">MAHARAJ TEACHING HOSPITAL</small>
 
                                 <h2 class="projects-title">Banana</h2>
                             </div>
@@ -402,11 +425,10 @@
                 </div>
             </div>
 
-            <div class="col-lg-8 col-12">
+            {{-- <div class="col-lg-8 col-12">
                 <div class="projects-thumb projects-thumb-large">
                     <a href="project-detail.html">
-                        <img src="images/projects/evangeline-shaw-nwLTVwb7DbU-unsplash.jpg"
-                            class="img-fluid projects-image" alt="">
+                        <img src="images/projects/Maharaj.png" class="img-fluid projects-image" alt="">
 
                         <div class="projects-info">
                             <div class="projects-title-wrap">
@@ -423,17 +445,38 @@
                         </div>
                     </a>
                 </div>
+            </div> --}}
+
+            <div class="col-lg-4 col-12">
+                <div class="projects-thumb projects-thumb-small">
+                    <a href="{{ route('narayani') }}">
+                        <img src="images/projects/bpkhs.png" class="img-fluid projects-image" alt="">
+
+                        <div class="projects-info">
+                            <div class="projects-title-wrap">
+                                <small class="projects-small-title">NARAYANI SUBREGIONAL HOSPITAL</small>
+
+                                <h2 class="projects-title">MCL Group</h2>
+                            </div>
+
+                            <div class="projects-btn-wrap mt-4">
+                                <span class="custom-btn btn">
+                                    <i class="bi-arrow-right"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
 
             <div class="col-lg-4 col-12">
                 <div class="projects-thumb projects-thumb-small">
-                    <a href="project-detail.html">
-                        <img src="images/projects/tangerine-newt-AKH4OVEmILc-unsplash.jpg"
-                            class="img-fluid projects-image" alt="">
+                    <a href="{{ route('nepalgunj') }}">
+                        <img src="images/projects/Nepalgunj.png" class="img-fluid projects-image" alt="">
 
                         <div class="projects-info">
                             <div class="projects-title-wrap">
-                                <small class="projects-small-title">Business</small>
+                                <small class="projects-small-title">NEPALGUNJ MEDICAL COLLEGE</small>
 
                                 <h2 class="projects-title">Maldon</h2>
                             </div>
@@ -526,3 +569,5 @@
         </div>
     </div>
 </section>
+
+@endsection

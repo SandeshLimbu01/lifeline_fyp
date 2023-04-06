@@ -33,7 +33,8 @@ Free Bootstrap 5 HTML Template
 
     <main>
 
-        @include('frontend.main')
+        {{-- @include('frontend.main') --}}
+        @yield('content')
 
     </main>
 
