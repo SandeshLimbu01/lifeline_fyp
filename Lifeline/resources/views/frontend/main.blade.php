@@ -384,7 +384,7 @@
             <div class="col-lg-4 col-12">
                 <div class="projects-thumb projects-thumb-small">
                     <a href="{{ route('chitwan') }}">
-                        <img src="images/projects/bpkhs.png" class="img-fluid projects-image" alt="">
+                        <img src="images/projects/chitwan.png" class="img-fluid projects-image" alt="">
 
                         <div class="projects-info">
                             <div class="projects-title-wrap">
@@ -406,7 +406,7 @@
             <div class="col-lg-4 col-12">
                 <div class="projects-thumb projects-thumb-small">
                     <a href="{{ route('maharaj') }}">
-                        <img src="images/projects/bpkhs.png" class="img-fluid projects-image" alt="">
+                        <img src="images/projects/Maharajgunj.png" class="img-fluid projects-image" alt="">
 
                         <div class="projects-info">
                             <div class="projects-title-wrap">
@@ -450,7 +450,7 @@
             <div class="col-lg-4 col-12">
                 <div class="projects-thumb projects-thumb-small">
                     <a href="{{ route('narayani') }}">
-                        <img src="images/projects/bpkhs.png" class="img-fluid projects-image" alt="">
+                        <img src="images/projects/narayani.png" class="img-fluid projects-image" alt="">
 
                         <div class="projects-info">
                             <div class="projects-title-wrap">

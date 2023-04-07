@@ -63,6 +63,12 @@ Route::middleware('auth')->group(function () {
     Route::get('/laravel-user-management', UserManagement::class)->name('user-management');
 });
 
+Route::get('/redirect', [homeController::class, 'redirect']);
+Route::get('/med', [homeController::class, 'med'])->name('med');
+Route::get('/illness', [homeController::class, 'illness'])->name('illness');
+// Route::get('/index', [AdviceController::class, 'index'])->name('advice.index');
+
+// Route::get('/redirect', [homeController::class, 'redirect']);
 
 Route::prefix('/advice')->group(function () {
     Route::get('/index', [AdviceController::class, 'index'])->name('advice.index');

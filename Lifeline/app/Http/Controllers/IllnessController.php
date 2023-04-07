@@ -40,7 +40,7 @@ class IllnessController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('frontend.medicine.med');
     }
 
     /**

@@ -30,17 +30,14 @@
                                 class="text-warning"></strong></small> Hospital</a>
                 </li>
 
+
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/') }}"><small class="small-title"><strong
-                                class="text-warning"></strong></small> Diseases</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/') }}"><small class="small-title"><strong
+                    <a class="nav-link" href="{{ route('med') }}"><small class="small-title"><strong
                                 class="text-warning"></strong></small> Medicine</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/') }}"><small class="small-title"><strong
+                    <a class="nav-link" href="{{ route('illness') }}"><small class="small-title"><strong
                                 class="text-warning"></strong></small> Diseases</a>
                 </li>
 
