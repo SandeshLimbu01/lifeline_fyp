@@ -85,7 +85,7 @@
                     <img src="images/peter-jones-WZROBIlY8Rg-unsplash.jpg" class="img-fluid about-image" alt="">
 
                     <div class="about-image-info">
-                        <h4 class="text-white">Dr. William Smith</h4>
+                        <h4 class="text-white">Dr. Mahatara</h4>
 
                         <p class="text-white mb-0">Skipping meals can lead to overeating later in the day. Try to eat
                             regular meals and snacks throughout the day to keep your hunger and energy levels stable.
@@ -339,13 +339,13 @@
             <div class="col-lg-4 col-12">
                 <div class="projects-thumb projects-thumb-small">
                     <a href="{{ route('bir') }}">
-                        <img src="images/projects/bpkhs.png" class="img-fluid projects-image" alt="">
+                        <img src="images/projects/birhos.png" class="img-fluid projects-image" alt="">
 
                         <div class="projects-info">
                             <div class="projects-title-wrap">
                                 <small class="projects-small-title">BIR HOSPITAL</small>
 
-                                <h2 class="projects-title">MCL Group</h2>
+                                {{-- <h2 class="projects-title"></h2> --}}
                             </div>
 
                             <div class="projects-btn-wrap mt-4">
@@ -368,7 +368,7 @@
                                 <small class="projects-small-title">B.P. Koirala Institute of Health Sciences
                                     (BPKIHS)</small>
 
-                                <h2 class="projects-title">MCL Group</h2>
+                                {{-- <h2 class="projects-title">MCL Group</h2> --}}
                             </div>
 
                             <div class="projects-btn-wrap mt-4">
@@ -390,7 +390,7 @@
                             <div class="projects-title-wrap">
                                 <small class="projects-small-title">CHITWAN MEDICAL COLLEGE</small>
 
-                                <h2 class="projects-title">Fredi</h2>
+                                {{-- <h2 class="projects-title">Fredi</h2> --}}
                             </div>
 
                             <div class="projects-btn-wrap mt-4">
@@ -412,7 +412,7 @@
                             <div class="projects-title-wrap">
                                 <small class="projects-small-title">MAHARAJ TEACHING HOSPITAL</small>
 
-                                <h2 class="projects-title">Banana</h2>
+                                {{-- <h2 class="projects-title">Banana</h2> --}}
                             </div>
 
                             <div class="projects-btn-wrap mt-4">
@@ -456,7 +456,7 @@
                             <div class="projects-title-wrap">
                                 <small class="projects-small-title">NARAYANI SUBREGIONAL HOSPITAL</small>
 
-                                <h2 class="projects-title">MCL Group</h2>
+                                {{-- <h2 class="projects-title">MCL Group</h2> --}}
                             </div>
 
                             <div class="projects-btn-wrap mt-4">
@@ -478,7 +478,7 @@
                             <div class="projects-title-wrap">
                                 <small class="projects-small-title">NEPALGUNJ MEDICAL COLLEGE</small>
 
-                                <h2 class="projects-title">Maldon</h2>
+                                {{-- <h2 class="projects-title">Maldon</h2> --}}
                             </div>
 
                             <div class="projects-btn-wrap mt-4">
@@ -495,7 +495,11 @@
     </div>
 </section>
 
-<section class="contact" id="section_5">
+<br>
+<br>
+<br>
+
+{{-- <section class="contact" id="section_5">
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path fill="#f9c10b" fill-opacity="1"
@@ -568,6 +572,6 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
 @endsection
