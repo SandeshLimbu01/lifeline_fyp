@@ -1,6 +1,11 @@
 <?php
 
+use App\Http\Controllers\Advice;
+use App\Http\Controllers\AdviceController;
+use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\homeController;
+use App\Http\Controllers\HospitalController;
+use App\Http\Controllers\IllnessController;
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Livewire\Auth\ForgotPassword;
@@ -60,49 +65,49 @@ Route::middleware('auth')->group(function () {
 
 
 Route::prefix('/advice')->group(function () {
-    Route::get('/index', [ContactController::class, 'index'])->name('advice.index');
-    Route::get('/create', [ContactController::class, 'create'])->name('advice.create');
-    Route::post('/store', [ContactController::class, 'store'])->name('advice.store');
-    Route::get('/{id}/edit', [ContactController::class, 'edit'])->name('advice.edit');
-    Route::put('/{id}/update', [ContactController::class, 'update'])->name('advice.update');
-    Route::get('/{id}/show', [ContactController::class, 'show'])->name('advice.show');
+    Route::get('/index', [AdviceController::class, 'index'])->name('advice.index');
+    Route::get('/create', [AdviceController::class, 'create'])->name('advice.create');
+    Route::post('/store', [AdviceController::class, 'store'])->name('advice.store');
+    Route::get('/{id}/edit', [AdviceController::class, 'edit'])->name('advice.edit');
+    Route::put('/{id}/update', [AdviceController::class, 'update'])->name('advice.update');
+    Route::get('/{id}/show', [AdviceController::class, 'show'])->name('advice.show');
 });
 
 Route::prefix('/article')->group(function () {
-    Route::get('/index', [ContactController::class, 'index'])->name('article.index');
-    Route::get('/create', [ContactController::class, 'create'])->name('article.create');
-    Route::post('/store', [ContactController::class, 'store'])->name('article.store');
-    Route::get('/{id}/edit', [ContactController::class, 'edit'])->name('article.edit');
-    Route::put('/{id}/update', [ContactController::class, 'update'])->name('article.update');
-    Route::get('/{id}/show', [ContactController::class, 'show'])->name('article.show');
+    Route::get('/index', [ArticleController::class, 'index'])->name('article.index');
+    Route::get('/create', [ArticleController::class, 'create'])->name('article.create');
+    Route::post('/store', [ArticleController::class, 'store'])->name('article.store');
+    Route::get('/{id}/edit', [ArticleController::class, 'edit'])->name('article.edit');
+    Route::put('/{id}/update', [ArticleController::class, 'update'])->name('article.update');
+    Route::get('/{id}/show', [ArticleController::class, 'show'])->name('article.show');
 });
 
 Route::prefix('/hospital')->group(function () {
-    Route::get('/index', [ContactController::class, 'index'])->name('hospital.index');
-    Route::get('/create', [ContactController::class, 'create'])->name('hospital.create');
-    Route::post('/store', [ContactController::class, 'store'])->name('hospital.store');
-    Route::get('/{id}/edit', [ContactController::class, 'edit'])->name('hospital.edit');
-    Route::put('/{id}/update', [ContactController::class, 'update'])->name('hospital.update');
-    Route::get('/{id}/show', [ContactController::class, 'show'])->name('hospital.show');
+    Route::get('/index', [HospitalController::class, 'index'])->name('hospital.index');
+    Route::get('/create', [HospitalController::class, 'create'])->name('hospital.create');
+    Route::post('/store', [HospitalController::class, 'store'])->name('hospital.store');
+    Route::get('/{id}/edit', [HospitalController::class, 'edit'])->name('hospital.edit');
+    Route::put('/{id}/update', [HospitalController::class, 'update'])->name('hospital.update');
+    Route::get('/{id}/show', [HospitalController::class, 'show'])->name('hospital.show');
 });
 
 Route::prefix('/illness')->group(function () {
-    Route::get('/index', [ContactController::class, 'index'])->name('illness.index');
-    Route::get('/create', [ContactController::class, 'create'])->name('illness.create');
-    Route::post('/store', [ContactController::class, 'store'])->name('illness.store');
-    Route::get('/{id}/edit', [ContactController::class, 'edit'])->name('illness.edit');
-    Route::put('/{id}/update', [ContactController::class, 'update'])->name('illness.update');
-    Route::get('/{id}/show', [ContactController::class, 'show'])->name('illness.show');
+    Route::get('/index', [IllnessController::class, 'index'])->name('illness.index');
+    Route::get('/create', [IllnessController::class, 'create'])->name('illness.create');
+    Route::post('/store', [IllnessController::class, 'store'])->name('illness.store');
+    Route::get('/{id}/edit', [IllnessController::class, 'edit'])->name('illness.edit');
+    Route::put('/{id}/update', [IllnessController::class, 'update'])->name('illness.update');
+    Route::get('/{id}/show', [IllnessController::class, 'show'])->name('illness.show');
 });
 
-Route::prefix('/advice')->group(function () {
-    Route::get('/index', [ContactController::class, 'index'])->name('advice.index');
-    Route::get('/create', [ContactController::class, 'create'])->name('advice.create');
-    Route::post('/store', [ContactController::class, 'store'])->name('advice.store');
-    Route::get('/{id}/edit', [ContactController::class, 'edit'])->name('advice.edit');
-    Route::put('/{id}/update', [ContactController::class, 'update'])->name('advice.update');
-    Route::get('/{id}/show', [ContactController::class, 'show'])->name('advice.show');
-});
+// Route::prefix('/advice')->group(function () {
+//     Route::get('/index', [ContactController::class, 'index'])->name('advice.index');
+//     Route::get('/create', [ContactController::class, 'create'])->name('advice.create');
+//     Route::post('/store', [ContactController::class, 'store'])->name('advice.store');
+//     Route::get('/{id}/edit', [ContactController::class, 'edit'])->name('advice.edit');
+//     Route::put('/{id}/update', [ContactController::class, 'update'])->name('advice.update');
+//     Route::get('/{id}/show', [ContactController::class, 'show'])->name('advice.show');
+// });
 
 Route::prefix('/hospital')->group(function () {
     Route::get('/bir', [homeController::class, 'bir'])->name('bir');
